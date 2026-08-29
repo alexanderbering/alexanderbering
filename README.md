@@ -25,7 +25,8 @@ extracted from, published as a frozen, readable snapshot.
 |---|---|
 | Preprint | [arXiv:2604.23878](https://arxiv.org/abs/2604.23878) |
 | Author ID | [ORCID 0009-0001-1793-012X](https://orcid.org/0009-0001-1793-012X) |
-| Open records | [Zenodo, CC BY 4.0](https://zensation.ai/en/publikationen) — each with its own DOI and reproduction material |
+| Open records | [Zenodo](https://zensation.ai/en/publikationen) — CC BY 4.0, each with its own version and concept DOI |
+| Reproduction | [Mechanism ablation package](https://doi.org/10.5281/zenodo.22162064) — Apache-2.0; reproduces Tables 7–9 from a clean clone |
 | Lab | [zensation.ai](https://zensation.ai) · research@zensation.ai |
 
 Every number I publish is meant to be re-derived, not believed. Benchmarks ship with the
