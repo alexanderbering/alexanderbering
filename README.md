@@ -12,7 +12,7 @@ trading systems, enterprise CRM, and now AI research infrastructure.
 
 **[zenbrain](https://github.com/zensation-ai/zenbrain)** — a seven-layer, neuroscience-derived
 memory architecture for LLM agents. Zero-dependency TypeScript, Apache-2.0. On LongMemEval-500
-three of nine head-to-head answer-quality comparisons hold against Letta, Mem0 and A-Mem — all
+three of nine head-to-head comparisons hold against Letta, Mem0 and A-Mem — all
 three against A-Mem, the remaining six are ties, none lost (three competitors × three LLM judges,
 Bonferroni-corrected, version-matched) — reaching 91.3% of a full-context oracle's binary-judge
 accuracy at 1/109.6 of the per-query token cost.
