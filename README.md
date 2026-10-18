@@ -11,11 +11,11 @@ trading systems, enterprise CRM, and now AI research infrastructure.
 ### What I build here
 
 **[zenbrain](https://github.com/zensation-ai/zenbrain)** — a seven-layer, neuroscience-derived
-memory architecture for LLM agents. Zero-dependency TypeScript, Apache-2.0. On LongMemEval-500
+memory architecture for LLM agents. TypeScript with no third-party dependencies in its core packages, Apache-2.0. On LongMemEval-500
 three of nine head-to-head comparisons hold against Letta, Mem0 and A-Mem — all
 three against A-Mem, the remaining six are ties, none lost (three competitors × three LLM judges,
-Bonferroni-corrected, version-matched) — reaching 91.3% of a full-context oracle's binary-judge
-accuracy at 1/109.6 of the per-query token cost.
+Bonferroni-corrected, version-matched) — and the measured arm (per the correction notice a Python port of a test-harness class, not the seven-layer system)
+reaches 91.3% of the accuracy of a full-context comparison arm (whose answer model reads the whole history) with 1/109.6 of its input tokens in the answer step.
 
 **[zenai](https://github.com/zensation-ai/zenai)** — the self-hosted AI platform ZenBrain was
 extracted from, published as a frozen, readable snapshot.
