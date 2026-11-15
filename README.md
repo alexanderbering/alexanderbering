@@ -13,9 +13,14 @@ trading systems, enterprise CRM, and now AI research infrastructure.
 **[zenbrain](https://github.com/zensation-ai/zenbrain)** — a seven-layer, neuroscience-derived
 memory architecture for LLM agents. TypeScript with no third-party dependencies in its core packages, Apache-2.0. On LongMemEval-500
 three of nine head-to-head comparisons hold against Letta, Mem0 and A-Mem — all
-three against A-Mem, the remaining six are ties, none lost (three competitors × three LLM judges,
+three against A-Mem; the remaining six, against Letta and Mem0, show no significant difference (three competitors × three LLM judges,
 Bonferroni-corrected, version-matched) — and the measured arm (per the correction notice a Python port of a test-harness class, not the seven-layer system)
-reaches 91.3% of the accuracy of a full-context comparison arm (whose answer model reads the whole history) with 1/109.6 of its input tokens in the answer step.
+reaches 91.3% of the accuracy of a full-context comparison arm (whose answer model reads the whole history) with 1/109.7 of its input tokens in the answer step.
+
+**[voteworth](https://github.com/zensation-ai/voteworth)** — measures error correlation in an LLM judge
+panel or voter ensemble, reports the effective number of independent votes, and corrects the
+majority vote for correlated voters, including the panel shape where it cannot. Python, numpy only,
+Apache-2.0.
 
 **[zenai](https://github.com/zensation-ai/zenai)** — the self-hosted AI platform ZenBrain was
 extracted from, published as a frozen, readable snapshot.
